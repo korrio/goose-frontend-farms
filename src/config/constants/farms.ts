@@ -9,16 +9,16 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       97: '',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      4: '0xDa38Ac5724502E27EcDcfB64e3cc60A48F7B2bAB',
+      4: '0x64d94b153165bb8db2af14339c8390f53bfbb397', // SPG-BUSD
     },
-    tokenSymbol: 'BUSD',
+    tokenSymbol: 'SPG',
     tokenAddresses: {
       97: '',
       56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
-      4: '0xda38ac5724502e27ecdcfb64e3cc60a48f7b2bab',
+      4: '0xDa38Ac5724502E27EcDcfB64e3cc60A48F7B2bAB', // SPG
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 1,
@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       97: '',
       56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
-      4: '0x2f9873EbF0286Fa5edDF5d414b0490dc9c15cc8a',
+      4: '0x2f9873EbF0286Fa5edDF5d414b0490dc9c15cc8a', // SPG-BNB
     },
     tokenSymbol: 'BNB',
     tokenAddresses: {
@@ -45,16 +45,16 @@ const farms: FarmConfig[] = [
     lpAddresses: {
       97: '',
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
-      4: '0x64d94b153165bb8db2af14339c8390f53bfbb397',
+      4: '0x64d94b153165bb8db2af14339c8390f53bfbb397', // SPG-BUSD
     },
-    tokenSymbol: 'BUSD',
+    tokenSymbol: 'SPG',
     tokenAddresses: {
       97: '',
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
       4: '0x3720E88Fbc0F3519E284Dd82b6CF6933b5da4D84', // BUSD
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
 ]
 
