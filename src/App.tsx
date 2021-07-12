@@ -7,7 +7,6 @@ import { useFetchPublicData } from 'state/hooks'
 import GlobalStyle from './style/Global'
 import Menu from './components/Menu'
 import PageLoader from './components/PageLoader'
-import NftGlobalNotification from './views/Nft/components/NftGlobalNotification'
 
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page'
@@ -48,9 +47,9 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
-            <Route path="/nests">
+            {/*            <Route path="/nests">
               <Farms tokenMode/>
-            </Route>
+            </Route> */}
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}
             {/* </Route> */}
@@ -75,7 +74,6 @@ const App: React.FC = () => {
           </Switch>
         </Suspense>
       </Menu>
-      <NftGlobalNotification />
     </Router>
   )
 }
