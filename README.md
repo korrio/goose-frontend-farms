@@ -1,5 +1,5 @@
 # SPG Farm Frontend
-## Instuctions
+## Instructions
 1. git clone https://github.com/goosedefi/goose-frontend-farms
 2. npm install
 3. Modify core addresses (treat wbnb as WBNB-T and cake as SPG token)
