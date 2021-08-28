@@ -1,4 +1,4 @@
-# SPG Farm Frontend
+# ANY Farm Frontend
 ## Instructions
 1. git clone https://github.com/goosedefi/goose-frontend-farms
 2. npm install
